@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>{% block title %} Question 3 {% endblock %}</h1>
+    
+            <h1>{{ result[4] }}</h1>
+            <h2>Oui = {{ result[0] }}</h2> <h2>{{ result[3] }} %</h2>
+            <h2>Non = {{ result[1] }}</h2> <h2>{{ result[2] }} %</h2>
+
+{% endblock %}
